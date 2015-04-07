@@ -4,6 +4,11 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
++ (TSTLAppDelegate *)instance;
 
+
+- (void)moveToLoggedInMode;
+
+- (void)moveToLoggedOutMode;
 @end
 

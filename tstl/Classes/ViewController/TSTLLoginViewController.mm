@@ -3,6 +3,7 @@
 #import "CocoaSoundCloudAPI/SCSoundCloud.h"
 #import "UIImage+SoundCloudUI.h"
 #import "View+MASAdditions.h"
+#import "TSTLAppDelegate.h"
 
 @implementation TSTLLoginViewController
 
@@ -33,6 +34,7 @@
         } else if (error) {
             NSLog(@"Error: %@", [error localizedDescription]);
         } else {
+            [TSTLAppDelegate.instance moveToLoggedInMode];
             NSLog(@"Done!");
         }
     };
