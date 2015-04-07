@@ -1,9 +1,7 @@
+#include <stdio.h>
 #import "CKCompositeComponent.h"
-
 @class TSTLSound;
 
 @interface TSTLSoundHeadComponent : CKCompositeComponent
-
-+ (CKComponent *)newWithSound:(TSTLSound *)sound;
-
++(instancetype)newWithSound:(TSTLSound *)sound;
 @end
