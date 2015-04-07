@@ -7,6 +7,6 @@
 
 @class SCSoundCloud;
 
-@interface TSTLLoginViewController : TSTLViewController
+@interface TSTLLoginViewController : UIViewController
 
 @end

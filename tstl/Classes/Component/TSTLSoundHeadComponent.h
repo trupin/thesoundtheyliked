@@ -2,7 +2,7 @@
 
 @class TSTLSound;
 
-@interface TSTLSoundComponent : CKCompositeComponent
+@interface TSTLSoundHeadComponent : CKCompositeComponent
 
 + (CKComponent *)newWithSound:(TSTLSound *)sound;
 

@@ -1,10 +1,10 @@
-#import "TSTLSoundComponent.h"
+#import "TSTLSoundHeadComponent.h"
 #import "TSTLSound.h"
 #import "CKBackgroundLayoutComponent.h"
 #import "CKStackLayoutComponent.h"
 #import "CKLabelComponent.h"
 
-@implementation TSTLSoundComponent
+@implementation TSTLSoundHeadComponent
 
 + (instancetype)newWithSound:(TSTLSound *)sound {
     return [super newWithComponent:

@@ -12,14 +12,12 @@
 		A0FD47F81AC96786008F60B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0FD47F71AC96786008F60B4 /* Images.xcassets */; };
 		A0FD47FB1AC96786008F60B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0FD47F91AC96786008F60B4 /* LaunchScreen.xib */; };
 		A0FD48071AC96787008F60B4 /* tstlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FD48061AC96787008F60B4 /* tstlTests.m */; };
-		CC6F82857586AADA1B618844 /* TSTLLoginComponentController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC6F88B850368AFF04B16D25 /* TSTLLoginComponentController.mm */; };
 		CC6F82B9BF1DC61C9A6EC2BF /* TSTLViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC6F8D4CBD11ACA6DAEDA923 /* TSTLViewController.mm */; };
 		CC6F846446A2F2DC89932877 /* TSTLSoundCollectionViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC6F8979CE785EFBBC3AD95B /* TSTLSoundCollectionViewController.mm */; };
-		CC6F8A10017B1ED2794A5B93 /* TSTLLoginComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC6F8BF5A867DF15B53A00B0 /* TSTLLoginComponent.mm */; };
 		CC6F8A4D30775727A82A1B45 /* TSTLAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC6F8E8505DFA9A425234012 /* TSTLAppDelegate.mm */; };
 		CC6F8A8AA94684C90085432C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CC6F80522B6EF2381D1147B4 /* .gitignore */; };
 		CC6F8A9D8BE3059842A56D3E /* TSTLSound.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6F853CD1E6199764FE6FFE /* TSTLSound.m */; };
-		CC6F8EA581776970240AFFCC /* TSTLSoundComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC6F8649C1F2C1329C9966FF /* TSTLSoundComponent.mm */; };
+		CC6F8EA581776970240AFFCC /* TSTLSoundHeadComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC6F8649C1F2C1329C9966FF /* TSTLSoundHeadComponent.mm */; };
 		CC6F8ED369273E15F363D0F2 /* TSTLLoginViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC6F8B1CB803C39E6D29519F /* TSTLLoginViewController.mm */; };
 		CC6F8FA876123A01111B89B0 /* soundcloud.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6F822D9A066A0E3BCF1A95 /* soundcloud.png */; };
 /* End PBXBuildFile section */
@@ -47,20 +45,16 @@
 		B42293D83E316327982178B5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1CABBB61B2DDD2A16108BF2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CC6F80522B6EF2381D1147B4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
-		CC6F816F38BBB5F661ACEAD4 /* TSTLSoundComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTLSoundComponent.h; sourceTree = "<group>"; };
+		CC6F816F38BBB5F661ACEAD4 /* TSTLSoundHeadComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTLSoundHeadComponent.h; sourceTree = "<group>"; };
 		CC6F81F8B6B4A1F9B6AB8583 /* TSTLSoundCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTLSoundCollectionViewController.h; sourceTree = "<group>"; };
 		CC6F822D9A066A0E3BCF1A95 /* soundcloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soundcloud.png; sourceTree = "<group>"; };
 		CC6F845D921DFAB6D3A6B4F1 /* TSTLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTLLoginViewController.h; sourceTree = "<group>"; };
 		CC6F853CD1E6199764FE6FFE /* TSTLSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTLSound.m; sourceTree = "<group>"; };
-		CC6F85DA4DF3AB4E2497825A /* TSTLLoginComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTLLoginComponent.h; sourceTree = "<group>"; };
 		CC6F861EFAD9D2852F2654A2 /* TSTLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTLViewController.h; sourceTree = "<group>"; };
-		CC6F8649C1F2C1329C9966FF /* TSTLSoundComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TSTLSoundComponent.mm; sourceTree = "<group>"; };
-		CC6F88B850368AFF04B16D25 /* TSTLLoginComponentController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TSTLLoginComponentController.mm; sourceTree = "<group>"; };
+		CC6F8649C1F2C1329C9966FF /* TSTLSoundHeadComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TSTLSoundHeadComponent.mm; sourceTree = "<group>"; };
 		CC6F8946E63FE2E14BB31BFF /* TSTLSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTLSound.h; sourceTree = "<group>"; };
 		CC6F8979CE785EFBBC3AD95B /* TSTLSoundCollectionViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TSTLSoundCollectionViewController.mm; sourceTree = "<group>"; };
 		CC6F8B1CB803C39E6D29519F /* TSTLLoginViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TSTLLoginViewController.mm; sourceTree = "<group>"; };
-		CC6F8BF5A867DF15B53A00B0 /* TSTLLoginComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TSTLLoginComponent.mm; sourceTree = "<group>"; };
-		CC6F8C47B40D7679E100F98B /* TSTLLoginComponentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTLLoginComponentController.h; sourceTree = "<group>"; };
 		CC6F8D4CBD11ACA6DAEDA923 /* TSTLViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TSTLViewController.mm; sourceTree = "<group>"; };
 		CC6F8DB0F873F4B927B9F5E8 /* TSTLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTLAppDelegate.h; sourceTree = "<group>"; };
 		CC6F8E8505DFA9A425234012 /* TSTLAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TSTLAppDelegate.mm; sourceTree = "<group>"; };
@@ -156,10 +150,8 @@
 		CC6F80A79F0E343E1C23F9A9 /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				CC6F85DA4DF3AB4E2497825A /* TSTLLoginComponent.h */,
-				CC6F816F38BBB5F661ACEAD4 /* TSTLSoundComponent.h */,
-				CC6F8BF5A867DF15B53A00B0 /* TSTLLoginComponent.mm */,
-				CC6F8649C1F2C1329C9966FF /* TSTLSoundComponent.mm */,
+				CC6F816F38BBB5F661ACEAD4 /* TSTLSoundHeadComponent.h */,
+				CC6F8649C1F2C1329C9966FF /* TSTLSoundHeadComponent.mm */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -194,15 +186,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		CC6F89E4D4236CD2FBB98F9F /* ComponentController */ = {
-			isa = PBXGroup;
-			children = (
-				CC6F8C47B40D7679E100F98B /* TSTLLoginComponentController.h */,
-				CC6F88B850368AFF04B16D25 /* TSTLLoginComponentController.mm */,
-			);
-			path = ComponentController;
-			sourceTree = "<group>";
-		};
 		CC6F8B422ABB0A637FF4609B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,7 +194,6 @@
 				CC6F80FFB208D05BF1B7ABBA /* ViewController */,
 				CC6F8DB0F873F4B927B9F5E8 /* TSTLAppDelegate.h */,
 				CC6F8E8505DFA9A425234012 /* TSTLAppDelegate.mm */,
-				CC6F89E4D4236CD2FBB98F9F /* ComponentController */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -370,13 +352,11 @@
 			files = (
 				A0FD47ED1AC96786008F60B4 /* main.m in Sources */,
 				CC6F8A9D8BE3059842A56D3E /* TSTLSound.m in Sources */,
-				CC6F8A10017B1ED2794A5B93 /* TSTLLoginComponent.mm in Sources */,
-				CC6F8EA581776970240AFFCC /* TSTLSoundComponent.mm in Sources */,
+				CC6F8EA581776970240AFFCC /* TSTLSoundHeadComponent.mm in Sources */,
 				CC6F82B9BF1DC61C9A6EC2BF /* TSTLViewController.mm in Sources */,
 				CC6F8ED369273E15F363D0F2 /* TSTLLoginViewController.mm in Sources */,
 				CC6F846446A2F2DC89932877 /* TSTLSoundCollectionViewController.mm in Sources */,
 				CC6F8A4D30775727A82A1B45 /* TSTLAppDelegate.mm in Sources */,
-				CC6F82857586AADA1B618844 /* TSTLLoginComponentController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

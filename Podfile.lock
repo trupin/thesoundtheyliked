@@ -5,18 +5,21 @@ PODS:
     - CocoaSoundCloudAPI (~> 1.0.2)
     - OHAttributedLabel
   - ComponentKit (0.9)
+  - Masonry (0.6.1)
   - NXOAuth2Client (1.2.2)
   - OHAttributedLabel (3.5.5)
 
 DEPENDENCIES:
   - CocoaSoundCloudAPI
   - CocoaSoundCloudUI
-  - ComponentKit (~> 0.9)
+  - ComponentKit
+  - masonry
 
 SPEC CHECKSUMS:
   CocoaSoundCloudAPI: bef452c90f3a3af6de41a620d7d156d716d68f79
   CocoaSoundCloudUI: f5aed254f432bc68a5a3570b74cdd6d18ce7b037
   ComponentKit: 78d73c354af113de9cdd4605b825c9ca315da773
+  Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
   NXOAuth2Client: 492f961d549c411b344cfae861de0dc63b176edc
   OHAttributedLabel: 9b2eb99323dee6b3a81ef3bc8e98b084117bca2d
 

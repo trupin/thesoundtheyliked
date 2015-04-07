@@ -1,3 +1,4 @@
-pod 'ComponentKit', '~> 0.9'
+pod 'ComponentKit'
 pod 'CocoaSoundCloudAPI'
 pod 'CocoaSoundCloudUI'
+pod 'masonry'

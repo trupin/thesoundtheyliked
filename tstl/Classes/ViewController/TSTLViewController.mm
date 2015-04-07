@@ -58,21 +58,12 @@
 }
 
 + (CKComponent *)componentForModel:(id <NSObject>)model context:(UICollectionView *)context {
-    return [CKStaticLayoutComponent
-            newWithView: {
-                    [UIView class],
-                    {
-                            {@selector(setBackgroundColor:), [UIColor whiteColor]}
-                    }
-            } size: {
-                    .height = context.frame.size.height,
-                    .width = context.frame.size.width
-            } children: {
-                    {
-                            CGPointMake(0, 20),
-                            [self component]
-                    }
-            }];
+    return [CKStaticLayoutComponent  newWithView: { [UIView class], { { @selector(setBackgroundColor:), [UIColor whiteColor] } } }
+                                            size: {
+                                                    .height = context.frame.size.height,
+                                                    .width = context.frame.size.width
+                                            }
+                                        children: { { CGPointMake(0, 20), [self component] } }];
 }
 
 + (CKComponent *)component {

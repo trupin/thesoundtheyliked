@@ -1,7 +1,7 @@
 #import "TSTLSoundCollectionViewController.h"
 #import "TSTLSound.h"
-#import "TSTLSoundComponent.h"
-#import "TSTLSoundComponent.h"
+#import "TSTLSoundHeadComponent.h"
+#import "TSTLSoundHeadComponent.h"
 #import "CKCollectionViewDataSource.h"
 #import <ComponentKit/CKComponentProvider.h>
 #import <ComponentKit/CKComponentFlexibleSizeRangeProvider.h>
@@ -87,7 +87,7 @@
 }
 
 + (CKComponent *)componentForModel:(id <NSObject>)model context:(id <NSObject>)context {
-    return [TSTLSoundComponent newWithSound:(TSTLSound *) model];
+    return [TSTLSoundHeadComponent newWithSound:(TSTLSound *) model];
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)layout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
