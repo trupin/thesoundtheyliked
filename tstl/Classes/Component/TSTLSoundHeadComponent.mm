@@ -13,7 +13,7 @@
                             [CKStackLayoutComponent newWithView:{}
                                                            size:{}
                                                           style:{
-                                                                  .direction = CKStackLayoutDirectionHorizontal
+                                                                  .direction = CKStackLayoutDirectionVertical
                                                           } children:{
                                             /*{
                                                 [CKImageComponent newWithImage:[UIImage imageNamed:@"3"]

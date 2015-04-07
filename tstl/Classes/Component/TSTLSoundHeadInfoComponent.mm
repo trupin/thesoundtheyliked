@@ -18,18 +18,11 @@
                                                        children:{
                                                                {
                                                                        [CKTextComponent newWithTextAttributes:{
-                                                                                       .attributedString = [[NSAttributedString alloc] initWithString:sound.artistName]
+                                                                                       .attributedString = [[NSAttributedString alloc] initWithString:sound.songName attributes:@{NSFontAttributeName: [UIFont fontWithName:@"Helvetica" size:26]}]
                                                                                }
                                                                                                viewAttributes:{
-                                                                                                       /*{@selector(addAttribute:value:range:), @[NSForegroundColorAttributeName, [UIColor whiteColor], NSMakeRange(0,[sound.artistName length])]}*/
+                                                                                                       {@selector(setBackgroundColor:), [UIColor clearColor]}
                                                                                                }
-                                                                                         accessibilityContext:{}]
-                                                               },
-                                                               {
-                                                                       [CKTextComponent newWithTextAttributes:{
-                                                                                       .attributedString = [[NSAttributedString alloc] initWithString:sound.songName]
-                                                                               }
-                                                                                               viewAttributes:{}
                                                                                          accessibilityContext:{}]
                                                                }
                                                        }]
